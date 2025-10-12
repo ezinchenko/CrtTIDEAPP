@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "0957ca5c-fb16-4dd5-8475-4f486fb72615",
+      "A2": "AtfCrtTIDETestAppRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "a7179226-2d99-4d4a-81fd-32644179b450",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "541f3f6d-a0ac-463f-bb4c-ac6e5d711220",
+            "PageSchemaUId": "4361be09-cdb5-4d65-8210-b05fbbd4fde5",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}

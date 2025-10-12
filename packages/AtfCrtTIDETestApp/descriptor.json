@@ -1,0 +1,18 @@
+﻿{
+  "Descriptor": {
+    "UId": "17a54f58-027a-4388-a288-9e8f6cc10a2d",
+    "Name": "AtfCrtTIDETestApp",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1731959136000)\/",
+    "Maintainer": "ATF",
+    "ProjectPath": "Files/AtfCrtTIDETestApp.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      }
+    ]
+  }
+}

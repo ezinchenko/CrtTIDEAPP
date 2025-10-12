@@ -1,0 +1,8 @@
+= MetaData.Schema.UId "4361be09-cdb5-4d65-8210-b05fbbd4fde5"
+= MetaData.Schema.A2 "AtfCrtTIDETestApp_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+~ MetaData.Schema.B2 ["bbdac173-3554-48d7-9708-08a1d626448d","93657b78-691e-4fa9-9834-407bc16f3818","73fa078a-7878-484d-a44d-3ae90d659729","5aa34981-b71f-4f7f-8ebc-aabe5120b3ef"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false

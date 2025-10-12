@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0957ca5c-fb16-4dd5-8475-4f486fb72615",
+    "Name": "AtfCrtTIDETestAppRelatedPage",
+    "ModifiedOnUtc": "\/Date(1760292510000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "CrtTIDETestApp (Page settings)",
+    "DependsOn": []
+  }
+}
