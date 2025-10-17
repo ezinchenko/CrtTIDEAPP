@@ -64,6 +64,21 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 			},
 			{
 				"operation": "insert",
+				"name": "Button_se7ru1a",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_se7ru1a_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "only-text"
+				},
+				"parentName": "LeftFilterContainerInner",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
 				"name": "ChartWidget_m5lzlml",
 				"values": {
 					"type": "crt.ChartWidget",
@@ -179,7 +194,7 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 				},
 				"parentName": "LeftFilterContainerInner",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
