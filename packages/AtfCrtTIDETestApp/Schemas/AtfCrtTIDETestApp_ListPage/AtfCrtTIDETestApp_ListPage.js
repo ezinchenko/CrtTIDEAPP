@@ -64,6 +64,37 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 			},
 			{
 				"operation": "insert",
+				"name": "FolderTreeActions_mnt9iee",
+				"values": {
+					"type": "crt.FolderTreeActions",
+					"folderTree": "FolderTree"
+				},
+				"parentName": "LeftFilterContainerInner",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "ChartWidget_buksira",
+				"values": {
+					"type": "crt.ChartWidget",
+					"config": {
+						"title": "#ResourceString(ChartWidget_buksira_title)#",
+						"theme": "without-fill",
+						"color": "dark-blue",
+						"series": [
+							{
+								"type": "horizontal-bar"
+							}
+						]
+					}
+				},
+				"parentName": "LeftFilterContainerInner",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
 				"name": "ChartWidget_m5lzlml",
 				"values": {
 					"type": "crt.ChartWidget",
@@ -179,7 +210,7 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 				},
 				"parentName": "LeftFilterContainerInner",
 				"propertyName": "items",
-				"index": 3
+				"index": 5
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[

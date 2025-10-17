@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="CrtTIDETestApp list page" />
+			<Item Name="LocalizableStrings.ChartWidget_buksira_title.Value" Value="New chart" />
 			<Item Name="LocalizableStrings.ChartWidget_m5lzlml_series_0.Value" Value="Account" />
 			<Item Name="LocalizableStrings.ChartWidget_m5lzlml_title.Value" Value="New chart" />
 		</Items>
