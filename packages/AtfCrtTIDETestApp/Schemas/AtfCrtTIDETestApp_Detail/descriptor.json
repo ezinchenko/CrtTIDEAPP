@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "f8e28781-ba71-4cbb-985a-21157ea00d66",
     "Name": "AtfCrtTIDETestApp_Detail",
-    "ModifiedOnUtc": "\/Date(1760292510000)\/",
+    "ModifiedOnUtc": "\/Date(1760662384000)\/",
     "Parent": {
       "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
       "Name": "BaseGridDetailV2"
