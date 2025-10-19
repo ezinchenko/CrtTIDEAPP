@@ -217,6 +217,26 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 			},
 			{
 				"operation": "insert",
+				"name": "ChartWidget_rit3n3h",
+				"values": {
+					"type": "crt.ChartWidget",
+					"config": {
+						"title": "#ResourceString(ChartWidget_rit3n3h_title)#",
+						"theme": "without-fill",
+						"color": "dark-blue",
+						"series": [
+							{
+								"type": "spline"
+							}
+						]
+					}
+				},
+				"parentName": "LeftFilterContainerInner",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
 				"name": "ChartWidget_fz4lb6a",
 				"values": {
 					"type": "crt.ChartWidget",
@@ -233,7 +253,7 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 				},
 				"parentName": "LeftFilterContainerInner",
 				"propertyName": "items",
-				"index": 6
+				"index": 7
 			},
 			{
 				"operation": "insert",
@@ -352,7 +372,7 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 				},
 				"parentName": "LeftFilterContainerInner",
 				"propertyName": "items",
-				"index": 7
+				"index": 8
 			},
 			{
 				"operation": "insert",
@@ -495,6 +515,26 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 			},
 			{
 				"operation": "insert",
+				"name": "ChartWidget_j235xpi",
+				"values": {
+					"type": "crt.ChartWidget",
+					"config": {
+						"title": "#ResourceString(ChartWidget_j235xpi_title)#",
+						"theme": "without-fill",
+						"color": "dark-blue",
+						"series": [
+							{
+								"type": "scatter"
+							}
+						]
+					}
+				},
+				"parentName": "RightFilterContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
 				"name": "ChartWidget_inaimly",
 				"values": {
 					"type": "crt.ChartWidget",
@@ -511,7 +551,7 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 				},
 				"parentName": "RightFilterContainer",
 				"propertyName": "items",
-				"index": 4
+				"index": 5
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
