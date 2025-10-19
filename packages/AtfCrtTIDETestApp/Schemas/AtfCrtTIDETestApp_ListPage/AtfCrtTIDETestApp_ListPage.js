@@ -453,6 +453,26 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 				"parentName": "RightFilterContainer",
 				"propertyName": "items",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ChartWidget_inaimly",
+				"values": {
+					"type": "crt.ChartWidget",
+					"config": {
+						"title": "#ResourceString(ChartWidget_inaimly_title)#",
+						"theme": "without-fill",
+						"color": "dark-blue",
+						"series": [
+							{
+								"type": "doughnut"
+							}
+						]
+					}
+				},
+				"parentName": "RightFilterContainer",
+				"propertyName": "items",
+				"index": 3
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
