@@ -456,6 +456,26 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 			},
 			{
 				"operation": "insert",
+				"name": "ChartWidget_k4awfgc",
+				"values": {
+					"type": "crt.ChartWidget",
+					"config": {
+						"title": "#ResourceString(ChartWidget_k4awfgc_title)#",
+						"theme": "without-fill",
+						"color": "dark-blue",
+						"series": [
+							{
+								"type": "bar"
+							}
+						]
+					}
+				},
+				"parentName": "RightFilterContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "ChartWidget_inaimly",
 				"values": {
 					"type": "crt.ChartWidget",
@@ -472,7 +492,7 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 				},
 				"parentName": "RightFilterContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
