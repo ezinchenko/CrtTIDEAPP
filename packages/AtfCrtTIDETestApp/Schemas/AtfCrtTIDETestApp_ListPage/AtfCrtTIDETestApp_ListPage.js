@@ -64,10 +64,133 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 			},
 			{
 				"operation": "insert",
-				"name": "FolderTreeActions_mnt9iee",
+				"name": "ChartWidget_ijgl3nd",
 				"values": {
-					"type": "crt.FolderTreeActions",
-					"folderTree": "FolderTree"
+					"type": "crt.ChartWidget",
+					"config": {
+						"title": "#ResourceString(ChartWidget_ijgl3nd_title)#",
+						"color": "dark-blue",
+						"theme": "without-fill",
+						"scales": {
+							"stacked": false,
+							"xAxis": {
+								"name": "",
+								"formatting": {
+									"type": "string",
+									"maxLinesCount": 2,
+									"maxLineLength": 10
+								}
+							},
+							"yAxis": {
+								"name": "",
+								"formatting": {
+									"type": "number",
+									"thousandAbbreviation": {
+										"enabled": true
+									}
+								}
+							}
+						},
+						"series": [
+							{
+								"color": "burnt-coral",
+								"type": "horizontal-bar",
+								"label": "#ResourceString(ChartWidget_ijgl3nd_series_0)#",
+								"legend": {
+									"enabled": false
+								},
+								"data": {
+									"providing": {
+										"attribute": "ChartWidget_ijgl3nd_SeriesData_eo3dzqw",
+										"schemaName": "Account",
+										"filters": {
+											"filter": {
+												"items": {
+													"columnIsNotNullFilter": {
+														"comparisonType": 2,
+														"filterType": 2,
+														"isEnabled": true,
+														"isNull": false,
+														"trimDateTimeParameterToDate": false,
+														"leftExpression": {
+															"expressionType": 0,
+															"columnPath": "CreatedBy"
+														}
+													}
+												},
+												"logicalOperation": 0,
+												"isEnabled": true,
+												"filterType": 6,
+												"rootSchemaName": "Account"
+											},
+											"filterAttributes": []
+										},
+										"aggregation": {
+											"column": {
+												"orderDirection": 0,
+												"orderPosition": -1,
+												"isVisible": true,
+												"expression": {
+													"expressionType": 1,
+													"functionArgument": {
+														"expressionType": 0,
+														"columnPath": "Id"
+													},
+													"functionType": 2,
+													"aggregationType": 1,
+													"aggregationEvalType": 2
+												}
+											}
+										},
+										"dependencies": [],
+										"rowCount": 50,
+										"grouping": {
+											"type": "by-value",
+											"column": {
+												"orderDirection": 0,
+												"orderPosition": -1,
+												"isVisible": true,
+												"expression": {
+													"expressionType": 0,
+													"columnPath": "CreatedBy"
+												}
+											}
+										}
+									},
+									"formatting": {
+										"type": "number",
+										"decimalSeparator": ".",
+										"decimalPrecision": 0,
+										"thousandSeparator": ","
+									}
+								},
+								"dataLabel": {
+									"display": true
+								}
+							}
+						],
+						"seriesOrder": {
+							"type": "by-grouping-value",
+							"direction": 1
+						},
+						"layout": {}
+					},
+					"sectionBindingColumnRecordId": "$Id"
+				},
+				"parentName": "LeftFilterContainerInner",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "Button_0jg5twp",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_0jg5twp_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "only-text"
 				},
 				"parentName": "LeftFilterContainerInner",
 				"propertyName": "items",
@@ -75,23 +198,23 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 			},
 			{
 				"operation": "insert",
-				"name": "ChartWidget_buksira",
+				"name": "ChartWidget_fz4lb6a",
 				"values": {
 					"type": "crt.ChartWidget",
 					"config": {
-						"title": "#ResourceString(ChartWidget_buksira_title)#",
+						"title": "#ResourceString(ChartWidget_fz4lb6a_title)#",
 						"theme": "without-fill",
 						"color": "dark-blue",
 						"series": [
 							{
-								"type": "horizontal-bar"
+								"type": "spline"
 							}
 						]
 					}
 				},
 				"parentName": "LeftFilterContainerInner",
 				"propertyName": "items",
-				"index": 4
+				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -210,7 +333,126 @@ define("AtfCrtTIDETestApp_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functio
 				},
 				"parentName": "LeftFilterContainerInner",
 				"propertyName": "items",
-				"index": 5
+				"index": 6
+			},
+			{
+				"operation": "insert",
+				"name": "ChartWidget_fa7t1fb",
+				"values": {
+					"type": "crt.ChartWidget",
+					"config": {
+						"title": "#ResourceString(ChartWidget_fa7t1fb_title)#",
+						"color": "dark-blue",
+						"theme": "without-fill",
+						"scales": {
+							"stacked": false,
+							"xAxis": {
+								"name": "",
+								"formatting": {
+									"type": "string",
+									"maxLinesCount": 2,
+									"maxLineLength": 10
+								}
+							},
+							"yAxis": {
+								"name": "",
+								"formatting": {
+									"type": "number",
+									"thousandAbbreviation": {
+										"enabled": true
+									}
+								}
+							}
+						},
+						"series": [
+							{
+								"color": "burnt-coral",
+								"type": "bar",
+								"label": "#ResourceString(ChartWidget_fa7t1fb_series_0)#",
+								"legend": {
+									"enabled": false
+								},
+								"data": {
+									"providing": {
+										"attribute": "ChartWidget_fa7t1fb_SeriesData_xa2l1tw",
+										"schemaName": "VwSysDcmLibInFolder",
+										"filters": {
+											"filter": {
+												"items": {
+													"columnIsNotNullFilter": {
+														"comparisonType": 2,
+														"filterType": 2,
+														"isEnabled": true,
+														"isNull": false,
+														"trimDateTimeParameterToDate": false,
+														"leftExpression": {
+															"expressionType": 0,
+															"columnPath": "CreatedBy"
+														}
+													}
+												},
+												"logicalOperation": 0,
+												"isEnabled": true,
+												"filterType": 6,
+												"rootSchemaName": "VwSysDcmLibInFolder"
+											},
+											"filterAttributes": []
+										},
+										"aggregation": {
+											"column": {
+												"orderDirection": 0,
+												"orderPosition": -1,
+												"isVisible": true,
+												"expression": {
+													"expressionType": 1,
+													"functionArgument": {
+														"expressionType": 0,
+														"columnPath": "Id"
+													},
+													"functionType": 2,
+													"aggregationType": 1,
+													"aggregationEvalType": 2
+												}
+											}
+										},
+										"dependencies": [],
+										"rowCount": 50,
+										"grouping": {
+											"type": "by-value",
+											"column": {
+												"orderDirection": 0,
+												"orderPosition": -1,
+												"isVisible": true,
+												"expression": {
+													"expressionType": 0,
+													"columnPath": "CreatedBy"
+												}
+											}
+										}
+									},
+									"formatting": {
+										"type": "number",
+										"decimalSeparator": ".",
+										"decimalPrecision": 0,
+										"thousandSeparator": ","
+									}
+								},
+								"dataLabel": {
+									"display": true
+								}
+							}
+						],
+						"seriesOrder": {
+							"type": "by-grouping-value",
+							"direction": 1
+						},
+						"layout": {}
+					},
+					"sectionBindingColumnRecordId": "$Id"
+				},
+				"parentName": "RightFilterContainer",
+				"propertyName": "items",
+				"index": 0
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
